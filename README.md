@@ -1,13 +1,20 @@
-StickyScrollViewItems
+[![](https://jitpack.io/v/jampez77/StickyScrollViewItems.svg)](https://jitpack.io/#jampez77/StickyScrollViewItems) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![GitHub stars](https://img.shields.io/github/stars/jampez77/StickyScrollViewItems.svg?style=social&label=Star)](https://GitHub.com/jampez77/UCE-Handler/stargazers) 
+
+<!-- [![](https://jitpack.io/v/jampez77/StickyScrollViewItems/month.svg)](https://jitpack.io/#jampez77/StickyScrollViewItems) [![](https://jitpack.io/v/jampez77/UCE-Handler/week.svg)](https://jitpack.io/#jampez77/UCE-Handler) -->
+
+# My Contributions
+### This is a fork of the brilliant [StickyScrollViewItems](https://github.com/emilsjolander/StickyScrollViewItems) by [Emil Sjölander](https://github.com/emilsjolander). This is not all that different from his repo in all honesty. I have just updated it and rewritten it in `Kotlin`.
+
+StickyScrollView
 =====================
-StickyScrollViewItems is a `ScrollView` subclass that allowed you to mark items inside the `ScrollView` as `sticky`. The items marked as sticky will stick to the top of the `ScrollView` until another `sticky` items comes by and pushes it out of the way.
+StickyScrollView is a `NestedScrollView` subclass that allows you to mark items inside the `ScrollView` as `sticky`. The items marked as sticky will stick to the top of the `ScrollView` until another `sticky` items comes by and pushes it out of the way.
 
 Installing
 ----------
 Add the following gradle dependency exchanging x.x.x for the latest release.
 ```groovy
 dependencies {
-    compile 'se.emilsjolander:StickyScrollViewItems:x.x.x'
+    compile 'com.jampez.stickyscrollview:x.x.x'
 }
 ```
 
@@ -73,7 +80,6 @@ If you want to add a shadow drawable below the stuck items, you must declare a n
 These shadow height and drawable can also be set programatically. Note that, unlike the xml attribute, `setShadowHeight(pixels)` only takes the values in pixels.
 ```java
 StickyScrollView stickyScroll = (StickyScrollView) findViewById(R.id.sticky_scroll);
-stickyScroll.setShadowDrawable(getResources().getDrawable(
-        R.drawable.shadow_drawable));
+stickyScroll.setShadowDrawable(getResources().getDrawable(R.drawable.shadow_drawable));
 stickyScroll.setShadowHeight(50); // in pixels
 ```

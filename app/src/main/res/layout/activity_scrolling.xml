@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jampez.stickyscrollview.StickyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ScrollingActivity">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:tag="sticky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:padding="16dp"
+            android:text="@string/sticky_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/large_text" />
+
+        <TextView android:tag="sticky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:padding="16dp"
+            android:text="@string/another_sticky_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/large_text" />
+
+        <TextView android:tag="sticky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:padding="16dp"
+            android:text="@string/yet_another_sticky_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/large_text" />
+
+    </LinearLayout>
+</com.jampez.stickyscrollview.StickyScrollView>

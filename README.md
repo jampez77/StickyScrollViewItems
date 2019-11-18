@@ -14,7 +14,7 @@ Installing
 Add the following gradle dependency exchanging x.x.x for the latest release.
 ```groovy
 dependencies {
-    compile 'com.jampez.stickyscrollview:x.x.x'
+    compile 'com.jampez.stickyscrollviewitems:x.x.x'
 }
 ```
 

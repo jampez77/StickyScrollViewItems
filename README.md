@@ -7,14 +7,17 @@
 
 StickyScrollView
 =====================
+
+[Play Store Demo Here] (https://play.google.com/store/apps/details?id=com.jampez.sticktyscrollviewexample)
+
 StickyScrollView is a `NestedScrollView` subclass that allows you to mark items inside the `ScrollView` as `sticky`. The items marked as sticky will stick to the top of the `ScrollView` until another `sticky` items comes by and pushes it out of the way.
 
 Installing
 ----------
-Add the following gradle dependency exchanging x.x.x for the latest release.
+Add the following gradle dependency.
 ```groovy
 dependencies {
-    compile 'com.jampez.stickyscrollviewitems:x.x.x'
+    compile 'com.jampez.stickyscrollviewitems:2.0'
 }
 ```
 

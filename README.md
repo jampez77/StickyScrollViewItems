@@ -17,7 +17,7 @@ Installing
 Add the following gradle dependency.
 ```groovy
 dependencies {
-    compile 'com.jampez.stickyscrollviewitems:2.0'
+    api 'com.jampez.stickyscrollviewitems:2.0'
 }
 ```
 

@@ -8,7 +8,7 @@
 StickyScrollView
 =====================
 
-[Play Store Demo Here] (https://play.google.com/store/apps/details?id=com.jampez.sticktyscrollviewexample)
+[Play Store Demo Here](https://play.google.com/store/apps/details?id=com.jampez.sticktyscrollviewexample)
 
 StickyScrollView is a `NestedScrollView` subclass that allows you to mark items inside the `ScrollView` as `sticky`. The items marked as sticky will stick to the top of the `ScrollView` until another `sticky` items comes by and pushes it out of the way.
 
